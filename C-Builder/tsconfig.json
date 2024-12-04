@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "resolveJsonModule": true,  // Enables importing JSON files
+        "esModuleInterop": true,   // Ensures compatibility with CommonJS
+        "module": "CommonJS",      // Use CommonJS for Node.js compatibility
+        "outDir": "./dist",        // Output directory for compiled files
+        "target": "ESNEXT"            // Ensure modern JavaScript support
+    }
+}
